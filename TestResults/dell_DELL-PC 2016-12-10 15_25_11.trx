@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="1c68f02d-6f9a-4ba1-aa13-943f20d5b34e" name="dell@DELL-PC 2016-12-10 15:25:11" runUser="dell-PC\dell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="e5ff9de3-c188-49f8-ac01-3ffd58872fcf">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="dell_DELL-PC 2016-12-10 15_25_11">
+      <DeploymentItem filename="D:\Projects\MultiThreadedLogger\packages\Moq.4.2.1510.2205\lib\net40\Moq.dll" />
+      <DeploymentItem filename="D:\Projects\MultiThreadedLogger\MultiThreadedLogger\bin\Debug\MultiThreadedLogger.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2016-12-10T15:25:11.1150609+05:30" queuing="2016-12-10T15:25:11.1910653+05:30" start="2016-12-10T15:25:11.2050661+05:30" finish="2016-12-10T15:25:11.6270902+05:30" />
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestWriteWarning" storage="d:\projects\multithreadedlogger\multithreadedloggertest\bin\debug\multithreadedloggertest.dll" id="848638f3-cebb-cd19-dacc-97e6124993bf">
+      <Execution id="76c9ceec-79c1-4fdf-a0a8-a6089dd13f3d" />
+      <TestMethod codeBase="D:/Projects/MultiThreadedLogger/MultiThreadedLoggerTest/bin/Debug/MultiThreadedLoggerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MultiThreadedLoggerTest.MultiThreadedLoggerTest, MultiThreadedLoggerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestWriteWarning" />
+    </UnitTest>
+    <UnitTest name="TestWriteInfo" storage="d:\projects\multithreadedlogger\multithreadedloggertest\bin\debug\multithreadedloggertest.dll" id="acc5ee62-eb79-ba55-8a80-8e8ca80aef38">
+      <Execution id="ecd0630b-2758-4287-805d-9898c3886075" />
+      <TestMethod codeBase="D:/Projects/MultiThreadedLogger/MultiThreadedLoggerTest/bin/Debug/MultiThreadedLoggerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MultiThreadedLoggerTest.MultiThreadedLoggerTest, MultiThreadedLoggerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestWriteInfo" />
+    </UnitTest>
+    <UnitTest name="TestWriteError" storage="d:\projects\multithreadedlogger\multithreadedloggertest\bin\debug\multithreadedloggertest.dll" id="1d8116f4-0340-7344-4bfb-b5ce7a894d45">
+      <Execution id="cce08aa8-0162-409c-ba67-ea18df4be155" />
+      <TestMethod codeBase="D:/Projects/MultiThreadedLogger/MultiThreadedLoggerTest/bin/Debug/MultiThreadedLoggerTest.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="MultiThreadedLoggerTest.MultiThreadedLoggerTest, MultiThreadedLoggerTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestWriteError" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1d8116f4-0340-7344-4bfb-b5ce7a894d45" executionId="cce08aa8-0162-409c-ba67-ea18df4be155" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="848638f3-cebb-cd19-dacc-97e6124993bf" executionId="76c9ceec-79c1-4fdf-a0a8-a6089dd13f3d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="acc5ee62-eb79-ba55-8a80-8e8ca80aef38" executionId="ecd0630b-2758-4287-805d-9898c3886075" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="cce08aa8-0162-409c-ba67-ea18df4be155" testId="1d8116f4-0340-7344-4bfb-b5ce7a894d45" testName="TestWriteError" computerName="DELL-PC" duration="00:00:00.1954708" startTime="2016-12-10T15:25:11.2090663+05:30" endTime="2016-12-10T15:25:11.5890881+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="cce08aa8-0162-409c-ba67-ea18df4be155">
+      <Output>
+        <StdOut>Task 1 Status RanToCompletion
+Task 2 Status RanToCompletion
+Number of files read: 2</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="76c9ceec-79c1-4fdf-a0a8-a6089dd13f3d" testId="848638f3-cebb-cd19-dacc-97e6124993bf" testName="TestWriteWarning" computerName="DELL-PC" duration="00:00:00.0046742" startTime="2016-12-10T15:25:11.5920882+05:30" endTime="2016-12-10T15:25:11.6020888+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="76c9ceec-79c1-4fdf-a0a8-a6089dd13f3d">
+      <Output>
+        <StdOut>Task 3 Status RanToCompletion
+Task 4 Status RanToCompletion
+Number of files read: 2</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ecd0630b-2758-4287-805d-9898c3886075" testId="acc5ee62-eb79-ba55-8a80-8e8ca80aef38" testName="TestWriteInfo" computerName="DELL-PC" duration="00:00:00.0025682" startTime="2016-12-10T15:25:11.6030889+05:30" endTime="2016-12-10T15:25:11.6100893+05:30" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ecd0630b-2758-4287-805d-9898c3886075">
+      <Output>
+        <StdOut>Task 5 Status RanToCompletion
+Task 6 Status RanToCompletion
+Number of files read: 2</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
